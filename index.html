@@ -1,0 +1,871 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Bishwajeet Oraon - Computer Science Engineering Student specializing in Software Development, Artificial Intelligence, Machine Learning, and Full-Stack Web Development.">
+  <meta name="keywords" content="Bishwajeet Oraon, Portfolio, Software Engineer, AI Engineer, Full-Stack Developer, Machine Learning, Python, JavaScript, React">
+  <meta name="author" content="Bishwajeet Oraon">
+  
+  <title>Bishwajeet Oraon | Software & AI Engineer Portfolio</title>
+  
+  <!-- Google Fonts: Plus Jakarta Sans & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Background Glow Orbs -->
+  <div class="bg-glow-orb orb-1" aria-hidden="true"></div>
+  <div class="bg-glow-orb orb-2" aria-hidden="true"></div>
+  <div class="bg-glow-orb orb-3" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="header-container container">
+      <a href="#hero" class="brand-logo" id="brand-logo" aria-label="Bishwajeet Oraon Home">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">BO</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Main Navigation">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a href="#about" class="nav-link" id="nav-about-link">About</a>
+          </li>
+          <li class="nav-item">
+            <a href="#skills" class="nav-link" id="nav-skills-link">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a href="#projects" class="nav-link" id="nav-projects-link">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link" id="nav-contact-link">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Nav Actions (Theme Switcher + CTA + Mobile Toggle) -->
+      <div class="header-actions">
+        <!-- Theme Toggle Button -->
+        <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle theme">
+          <svg class="theme-icon sun-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="theme-icon moon-icon" viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="#contact" class="btn btn-primary header-cta" id="header-hire-btn">
+          <span>Get in Touch</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle navigation menu" aria-expanded="false">
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+          <span class="hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Hero Section -->
+    <section class="hero-section section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="badge hero-badge" id="hero-badge">
+            <span class="status-dot"></span>
+            <span>Available for Internships & Projects</span>
+          </div>
+
+          <h1 class="hero-title" id="hero-title">
+            Hi, I'm <span class="text-gradient">Bishwajeet Oraon</span>
+          </h1>
+
+          <div class="hero-subtitle">
+            <span class="code-tag">&lt;role&gt;</span>
+            <span class="typewriter-text" id="typewriter-text">Computer Science Engineer & AI Aspirant</span>
+            <span class="code-tag">&lt;/role&gt;</span>
+          </div>
+
+          <p class="hero-description">
+            Passionate about Software Development, Artificial Intelligence, Machine Learning, and Full-Stack Web Development. Building intelligent applications and data-driven solutions to solve real-world problems.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary" id="hero-explore-projects-btn">
+              <span>View Projects</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="5" x2="12" y2="19"></line><polyline points="19 12 12 19 5 12"></polyline></svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary" id="hero-contact-btn">
+              <span>Contact Me</span>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/bishwajeet-oraon-239547277" target="_blank" rel="noopener noreferrer" class="btn btn-icon" id="hero-linkedin-btn" title="LinkedIn Profile" aria-label="LinkedIn Profile">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+              </svg>
+            </a>
+          </div>
+
+          <!-- Quick Metrics Bar -->
+          <div class="hero-stats">
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Featured Projects</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">99.5%</span>
+              <span class="stat-label">Macro F1 Score (NLP)</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">15+</span>
+              <span class="stat-label">Technologies Mastered</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Hero Visual / Tech Hologram Card -->
+        <div class="hero-visual" aria-hidden="true">
+          <div class="profile-card-glass">
+            <div class="card-glow-edge"></div>
+            <div class="avatar-container">
+              <div class="avatar-ring-outer"></div>
+              <div class="avatar-ring-inner"></div>
+              <div class="avatar-symbol">
+                <span class="avatar-initials">BO</span>
+              </div>
+            </div>
+
+            <div class="profile-meta">
+              <h3 class="profile-name">Bishwajeet Oraon</h3>
+              <p class="profile-tagline">CSE Student &amp; AI Developer</p>
+            </div>
+
+            <div class="tech-stack-pills">
+              <span class="tech-pill">Python</span>
+              <span class="tech-pill">JavaScript</span>
+              <span class="tech-pill">Machine Learning</span>
+              <span class="tech-pill">Node.js</span>
+              <span class="tech-pill">PostgreSQL</span>
+            </div>
+
+            <!-- Terminal Code Snippet Preview -->
+            <div class="mini-terminal">
+              <div class="terminal-dots">
+                <span class="dot dot-red"></span>
+                <span class="dot dot-yellow"></span>
+                <span class="dot dot-green"></span>
+                <span class="terminal-title">developer.py</span>
+              </div>
+              <pre class="terminal-code"><code><span class="token-keyword">def</span> <span class="token-func">build_future</span>():
+    <span class="token-keyword">return</span> {
+        <span class="token-str">"role"</span>: <span class="token-str">"Software & AI Engineer"</span>,
+        <span class="token-str">"status"</span>: <span class="token-str">"Always Learning"</span>,
+        <span class="token-str">"focus"</span>: [<span class="token-str">"AI/ML"</span>, <span class="token-str">"Web Dev"</span>, <span class="token-str">"DSA"</span>]
+    }</code></pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section class="about-section section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Who I Am</span>
+          <h2 class="section-title">About <span class="text-gradient">Me</span></h2>
+          <p class="section-subtitle">Dedicated to continuous learning, engineering excellence, and intelligent computing</p>
+        </div>
+
+        <div class="about-grid">
+          <!-- Main Narrative Bio -->
+          <div class="about-card glass-panel narrative-card">
+            <div class="card-header-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+              <h3>My Background & Journey</h3>
+            </div>
+            
+            <p class="bio-paragraph">
+              My name is <strong>Bishwajeet Oraon</strong>. I am a <strong>Computer Science Engineering student</strong> with a strong interest in <em>Software Development, Artificial Intelligence, Machine Learning</em>, and <em>Full-Stack Web Development</em>. I have foundational knowledge of Python, HTML, and CSS, and I am currently strengthening my JavaScript, Data Structures and Algorithms, and AI/ML skills.
+            </p>
+
+            <p class="bio-paragraph">
+              I enjoy exploring new technologies, solving problems, and building practical projects that address real-world challenges. I am particularly interested in developing intelligent applications and AI-powered solutions. My goal is to become a skilled Software Engineer and AI Engineer by gaining hands-on experience, contributing to real-world projects, and continuously improving my technical abilities.
+            </p>
+
+            <p class="bio-paragraph">
+              I am a self-motivated learner who values consistency, practical experience, and continuous growth. I am actively seeking opportunities to apply my knowledge, learn from experienced professionals, and contribute to innovative projects.
+            </p>
+
+            <div class="bio-footer-badges">
+              <div class="info-item">
+                <span class="info-label">Degree:</span>
+                <span class="info-val">B.Tech in Computer Science &amp; Engineering</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Specialization:</span>
+                <span class="info-val">Software Engineering &amp; AI/ML</span>
+              </div>
+              <div class="info-item">
+                <span class="info-label">Location:</span>
+                <span class="info-val">India (Open to Remote / On-site)</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Feature Cards / Value Pillars -->
+          <div class="about-features">
+            <div class="feature-card glass-panel">
+              <div class="feature-icon icon-cyan">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <div>
+                <h4>Software &amp; Web Development</h4>
+                <p>Architecting full-stack applications with responsive layouts, modern JS/Node backend systems, and secure RESTful APIs.</p>
+              </div>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon icon-purple">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a10 10 0 0 1 10 10c0 5.523-4.477 10-10 10S2 17.523 2 12A10 10 0 0 1 12 2z"></path><path d="M12 6v6l4 2"></path></svg>
+              </div>
+              <div>
+                <h4>AI &amp; Machine Learning</h4>
+                <p>Developing predictive algorithms, natural language classifiers, and healthcare predictive models using Scikit-Learn and Python.</p>
+              </div>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon icon-emerald">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+              </div>
+              <div>
+                <h4>Problem Solving &amp; DSA</h4>
+                <p>Reinforcing algorithmic foundations, clean object-oriented design principles, and scalable system thinking.</p>
+              </div>
+            </div>
+
+            <div class="feature-card glass-panel">
+              <div class="feature-icon icon-amber">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><path d="m4.93 4.93 4.24 4.24"></path><path d="m14.83 9.17 4.24-4.24"></path><path d="m14.83 14.83 4.24 4.24"></path><path d="m9.17 14.83-4.24 4.24"></path><circle cx="12" cy="12" r="4"></circle></svg>
+              </div>
+              <div>
+                <h4>Continuous Growth</h4>
+                <p>Consistently mastering state-of-the-art tools including LLMs, modern development stacks, and collaborative workflows.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills-section section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Expertise</span>
+          <h2 class="section-title">Technical <span class="text-gradient">Skills</span></h2>
+          <p class="section-subtitle">Comprehensive toolkit across programming languages, web frameworks, AI/ML, and dev tools</p>
+        </div>
+
+        <!-- Filter Tabs for Skills -->
+        <div class="filter-tabs-container">
+          <div class="filter-tabs" role="tablist" aria-label="Skill categories">
+            <button class="filter-tab active" data-filter="all" id="filter-all-skills" role="tab" aria-selected="true">All Skills</button>
+            <button class="filter-tab" data-filter="languages-core" id="filter-lang-skills" role="tab" aria-selected="false">Languages &amp; Core</button>
+            <button class="filter-tab" data-filter="web-backend" id="filter-web-skills" role="tab" aria-selected="false">Web &amp; Database</button>
+            <button class="filter-tab" data-filter="ai-ml" id="filter-ai-skills" role="tab" aria-selected="false">AI, ML &amp; NLP</button>
+            <button class="filter-tab" data-filter="tools-interests" id="filter-tools-skills" role="tab" aria-selected="false">Tools &amp; Interests</button>
+          </div>
+        </div>
+
+        <!-- Skills Grid Container -->
+        <div class="skills-grid" id="skills-grid">
+          <!-- Category 1: Programming Languages -->
+          <div class="skill-category-card glass-panel" data-category="languages-core">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">C++</span>
+            </div>
+          </div>
+
+          <!-- Category 2: Core Computer Science -->
+          <div class="skill-category-card glass-panel" data-category="languages-core">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line></svg>
+              </div>
+              <h3>Core Computer Science</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Data Structures &amp; Algorithms</span>
+              <span class="skill-tag">Object-Oriented Programming (OOP)</span>
+              <span class="skill-tag">Inheritance &amp; Polymorphism</span>
+              <span class="skill-tag">System Design Fundamentals</span>
+            </div>
+          </div>
+
+          <!-- Category 3: Frontend Development -->
+          <div class="skill-category-card glass-panel" data-category="web-backend">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg>
+              </div>
+              <h3>Frontend Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">Responsive Web Design</span>
+              <span class="skill-tag">UI/UX Development</span>
+              <span class="skill-tag">DOM Manipulation</span>
+            </div>
+          </div>
+
+          <!-- Category 4: Backend Development -->
+          <div class="skill-category-card glass-panel" data-category="web-backend">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6.01" y2="6"></line><line x1="6" y1="18" x2="6.01" y2="18"></line></svg>
+              </div>
+              <h3>Backend Development</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Express.js</span>
+              <span class="skill-tag">RESTful APIs</span>
+              <span class="skill-tag">FastAPI</span>
+              <span class="skill-tag">Backend Security</span>
+            </div>
+          </div>
+
+          <!-- Category 5: Database & Authentication -->
+          <div class="skill-category-card glass-panel" data-category="web-backend">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><ellipse cx="12" cy="5" rx="9" ry="3"></ellipse><path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path><path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path></svg>
+              </div>
+              <h3>Database &amp; Authentication</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">PostgreSQL</span>
+              <span class="skill-tag">Supabase</span>
+              <span class="skill-tag">SQL</span>
+              <span class="skill-tag">JWT Authentication</span>
+              <span class="skill-tag">Role-Based Access Control</span>
+            </div>
+          </div>
+
+          <!-- Category 6: Artificial Intelligence & Machine Learning -->
+          <div class="skill-category-card glass-panel" data-category="ai-ml">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2v4m0 12v4M4.93 4.93l2.83 2.83m8.48 8.48l2.83 2.83M2 12h4m12 0h4M4.93 19.07l2.83-2.83m8.48-8.48l2.83-2.83"></path></svg>
+              </div>
+              <h3>AI &amp; Machine Learning</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Supervised Learning</span>
+              <span class="skill-tag">Classification Algorithms</span>
+              <span class="skill-tag">Logistic Regression</span>
+              <span class="skill-tag">K-Nearest Neighbors (KNN)</span>
+              <span class="skill-tag">Decision Trees</span>
+              <span class="skill-tag">Cross-Validation</span>
+              <span class="skill-tag">Hyperparameter Tuning</span>
+            </div>
+          </div>
+
+          <!-- Category 7: Natural Language Processing -->
+          <div class="skill-category-card glass-panel" data-category="ai-ml">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path></svg>
+              </div>
+              <h3>Natural Language Processing</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Text Preprocessing</span>
+              <span class="skill-tag">TF-IDF Vectorization</span>
+              <span class="skill-tag">Sentiment Analysis</span>
+              <span class="skill-tag">Feature Extraction</span>
+              <span class="skill-tag">Multinomial Naive Bayes</span>
+            </div>
+          </div>
+
+          <!-- Category 8: Data Analysis & Visualization & ML Libraries -->
+          <div class="skill-category-card glass-panel" data-category="ai-ml">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
+              </div>
+              <h3>Data Analytics &amp; Libraries</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Matplotlib</span>
+              <span class="skill-tag">Seaborn</span>
+            </div>
+          </div>
+
+          <!-- Category 9: Model Evaluation Techniques -->
+          <div class="skill-category-card glass-panel" data-category="ai-ml">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 14 14"></polyline></svg>
+              </div>
+              <h3>Model Evaluation Techniques</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Accuracy &amp; Precision</span>
+              <span class="skill-tag">Recall &amp; F1-Score</span>
+              <span class="skill-tag">ROC-AUC Curves</span>
+              <span class="skill-tag">Confusion Matrix</span>
+              <span class="skill-tag">Overfitting/Underfitting Diagnostics</span>
+            </div>
+          </div>
+
+          <!-- Category 10: Development & Deployment Tools -->
+          <div class="skill-category-card glass-panel" data-category="tools-interests">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 2 7 12 12 22 7 12 2"></polygon><polyline points="2 17 12 22 22 17"></polyline><polyline points="2 12 12 17 22 12"></polyline></svg>
+              </div>
+              <h3>Development &amp; Deployment</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Vercel</span>
+              <span class="skill-tag">Streamlit</span>
+            </div>
+          </div>
+
+          <!-- Category 11: AI-Assisted Development Tools -->
+          <div class="skill-category-card glass-panel" data-category="tools-interests">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"></path></svg>
+              </div>
+              <h3>AI-Assisted Tools</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag">Claude</span>
+              <span class="skill-tag">Google Antigravity</span>
+              <span class="skill-tag">ChatGPT</span>
+              <span class="skill-tag">Gemini</span>
+            </div>
+          </div>
+
+          <!-- Category 12: Areas of Interest -->
+          <div class="skill-category-card glass-panel" data-category="tools-interests">
+            <div class="skill-card-head">
+              <div class="skill-icon-badge">
+                <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+              </div>
+              <h3>Areas of Interest</h3>
+            </div>
+            <div class="skill-tags">
+              <span class="skill-tag highlight-tag">AI Engineering</span>
+              <span class="skill-tag highlight-tag">Full-Stack Development</span>
+              <span class="skill-tag highlight-tag">Generative AI</span>
+              <span class="skill-tag highlight-tag">Large Language Models (LLMs)</span>
+              <span class="skill-tag highlight-tag">Robotics</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects-section section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Portfolio</span>
+          <h2 class="section-title">Featured <span class="text-gradient">Projects</span></h2>
+          <p class="section-subtitle">Real-world applications showcasing full-stack web engineering and predictive machine learning</p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Taste of Heaven -->
+          <article class="project-card glass-panel" id="project-taste-of-heaven">
+            <div class="project-card-header">
+              <div class="project-type-badge">
+                <span class="badge-icon">🌐</span>
+                <span>Full-Stack Web Application</span>
+              </div>
+              <span class="project-num">01</span>
+            </div>
+
+            <div class="project-body">
+              <h3 class="project-title">Taste of Heaven – Restaurant Web Platform</h3>
+              <p class="project-desc">
+                An end-to-end full-stack restaurant website designed for modern dining operations, offering customer engagement, interactive reservations, and administrative management.
+              </p>
+
+              <!-- Feature Highlights List -->
+              <ul class="project-features">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Developed a responsive restaurant website with seamless frontend and backend integration.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implemented restaurant menu management, online ordering, table reservations, and customer inquiry functionality.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Built RESTful APIs using Node.js and Express.js with Supabase &amp; PostgreSQL database persistence.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implemented JWT-based authentication and role-based access control (RBAC) for administrative operations.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Engineered comprehensive input validation, error handling, and robust backend security.</span>
+                </li>
+              </ul>
+
+              <!-- Tech Stack Badges -->
+              <div class="project-tech-stack">
+                <span class="tech-badge">HTML5</span>
+                <span class="tech-badge">CSS3</span>
+                <span class="tech-badge">JavaScript</span>
+                <span class="tech-badge">Node.js</span>
+                <span class="tech-badge">Express.js</span>
+                <span class="tech-badge">Supabase</span>
+                <span class="tech-badge">PostgreSQL</span>
+                <span class="tech-badge">JWT</span>
+                <span class="tech-badge">REST APIs</span>
+                <span class="tech-badge">Vercel</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="project-status">
+                <span class="status-indicator live"></span> Deployed / Vercel
+              </span>
+              <a href="#contact" class="btn btn-sm btn-outline">Discuss Project</a>
+            </div>
+          </article>
+
+          <!-- Project 2: Sentiment Analysis -->
+          <article class="project-card glass-panel" id="project-sentiment-analysis">
+            <div class="project-card-header">
+              <div class="project-type-badge badge-nlp">
+                <span class="badge-icon">🤖</span>
+                <span>Machine Learning &amp; NLP</span>
+              </div>
+              <span class="project-num">02</span>
+            </div>
+
+            <div class="project-body">
+              <div class="metric-callout">
+                <span class="metric-score">99.58%</span>
+                <span class="metric-text">CV Macro F1-Score Achieved</span>
+              </div>
+
+              <h3 class="project-title">Sentiment Analysis – Machine Learning &amp; NLP</h3>
+              <p class="project-desc">
+                An intelligent natural language processing pipeline to evaluate, classify, and extract sentiment from customer reviews into Positive, Negative, and Neutral categories with high statistical precision.
+              </p>
+
+              <!-- Feature Highlights List -->
+              <ul class="project-features">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Developed a machine learning application to classify customer reviews into Positive, Negative, and Neutral sentiments.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Performed text preprocessing, data cleaning, and TF-IDF feature extraction.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implemented and compared Logistic Regression and Multinomial Naive Bayes models.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Applied 5-fold cross-validation and GridSearchCV for rigorous hyperparameter optimization.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Built an interactive Streamlit application enabling real-time user review classification.</span>
+                </li>
+              </ul>
+
+              <!-- Tech Stack Badges -->
+              <div class="project-tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Pandas</span>
+                <span class="tech-badge">Scikit-learn</span>
+                <span class="tech-badge">NLP</span>
+                <span class="tech-badge">TF-IDF</span>
+                <span class="tech-badge">Logistic Regression</span>
+                <span class="tech-badge">Naive Bayes</span>
+                <span class="tech-badge">Streamlit</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="project-status">
+                <span class="status-indicator live"></span> Streamlit Deployed
+              </span>
+              <a href="#contact" class="btn btn-sm btn-outline">Discuss Project</a>
+            </div>
+          </article>
+
+          <!-- Project 3: Heart Failure Readmission -->
+          <article class="project-card glass-panel" id="project-heart-failure">
+            <div class="project-card-header">
+              <div class="project-type-badge badge-health">
+                <span class="badge-icon">🩺</span>
+                <span>Healthcare Analytics &amp; ML</span>
+              </div>
+              <span class="project-num">03</span>
+            </div>
+
+            <div class="project-body">
+              <div class="metric-callout">
+                <span class="metric-score">Clinical ML</span>
+                <span class="metric-text">ROC-AUC &amp; Risk Stratification</span>
+              </div>
+
+              <h3 class="project-title">Heart Failure 30-Day Readmission Prediction</h3>
+              <p class="project-desc">
+                Healthcare predictive classification model identifying patients at high risk of 30-day hospital readmission, empowering healthcare professionals to proactively intervene.
+              </p>
+
+              <!-- Feature Highlights List -->
+              <ul class="project-features">
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Developed a machine learning classification project to predict 30-day hospital readmission risk among heart failure patients.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Implemented Logistic Regression, K-Nearest Neighbors (KNN), and Decision Tree classifiers.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Performed data preprocessing, feature analysis, and model evaluation across various clinical factors.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Evaluated models comprehensively using Accuracy, Precision, Recall, F1-score, and ROC-AUC.</span>
+                </li>
+                <li>
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="20 6 9 17 4 12"></polyline></svg>
+                  <span>Analyzed confusion matrices and training-versus-testing curves to prevent overfitting and underfitting.</span>
+                </li>
+              </ul>
+
+              <!-- Tech Stack Badges -->
+              <div class="project-tech-stack">
+                <span class="tech-badge">Python</span>
+                <span class="tech-badge">Pandas</span>
+                <span class="tech-badge">NumPy</span>
+                <span class="tech-badge">Scikit-learn</span>
+                <span class="tech-badge">Matplotlib</span>
+                <span class="tech-badge">Seaborn</span>
+                <span class="tech-badge">Classification</span>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <span class="project-status">
+                <span class="status-indicator completed"></span> Research &amp; Evaluation
+              </span>
+              <a href="#contact" class="btn btn-sm btn-outline">Discuss Project</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-tag">Get in Touch</span>
+          <h2 class="section-title">Let's <span class="text-gradient">Connect</span></h2>
+          <p class="section-subtitle">Have a project, internship opportunity, or question? Send a message and I'll respond promptly.</p>
+        </div>
+
+        <div class="contact-wrapper">
+          <!-- Left Column: Contact Details & Quick Links -->
+          <div class="contact-info-panel glass-panel">
+            <h3 class="contact-panel-title">Contact Information</h3>
+            <p class="contact-panel-desc">
+              I am actively seeking internship opportunities, collaborative projects, and mentorship in Software Engineering and Artificial Intelligence.
+            </p>
+
+            <div class="contact-channels">
+              <!-- Email Item -->
+              <div class="contact-channel-item">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                </div>
+                <div class="channel-content">
+                  <span class="channel-label">Email Address</span>
+                  <a href="mailto:bishwajeetoraon42@gmail.com" class="channel-value" id="email-link">bishwajeetoraon42@gmail.com</a>
+                </div>
+                <button class="copy-btn" id="copy-email-btn" title="Copy email address" aria-label="Copy email address">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                </button>
+              </div>
+
+              <!-- LinkedIn Item -->
+              <div class="contact-channel-item">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+                  </svg>
+                </div>
+                <div class="channel-content">
+                  <span class="channel-label">LinkedIn Profile</span>
+                  <a href="https://www.linkedin.com/in/bishwajeet-oraon-239547277" target="_blank" rel="noopener noreferrer" class="channel-value" id="linkedin-link">
+                    bishwajeet-oraon-239547277
+                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+                  </a>
+                </div>
+              </div>
+
+              <!-- Status Item -->
+              <div class="contact-channel-item">
+                <div class="channel-icon">
+                  <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+                </div>
+                <div class="channel-content">
+                  <span class="channel-label">Availability</span>
+                  <span class="channel-status-text">Actively Seeking Internships &amp; Roles</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social Card Footer -->
+            <div class="social-links-footer">
+              <a href="https://www.linkedin.com/in/bishwajeet-oraon-239547277" target="_blank" rel="noopener noreferrer" class="social-btn" title="LinkedIn">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                <span>LinkedIn</span>
+              </a>
+              <a href="mailto:bishwajeetoraon42@gmail.com" class="social-btn" title="Email Me">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                <span>Email</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Contact Form -->
+          <div class="contact-form-panel glass-panel">
+            <h3 class="contact-panel-title">Send a Direct Message</h3>
+            <p class="contact-panel-desc">Fill in your information below to send an inquiry or message directly.</p>
+
+            <form class="contact-form" id="contact-form" novalidate>
+              <div class="form-row">
+                <div class="form-group">
+                  <label for="contact-name">Your Name <span class="required">*</span></label>
+                  <input type="text" id="contact-name" name="name" placeholder="John Doe" required>
+                  <span class="field-error-msg" id="name-error">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="contact-email">Your Email <span class="required">*</span></label>
+                  <input type="email" id="contact-email" name="email" placeholder="john@example.com" required>
+                  <span class="field-error-msg" id="email-error">Please enter a valid email address.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-subject">Subject <span class="required">*</span></label>
+                <input type="text" id="contact-subject" name="subject" placeholder="Project Inquiry / Internship Opportunity" required>
+                <span class="field-error-msg" id="subject-error">Please enter a subject.</span>
+              </div>
+
+              <div class="form-group">
+                <label for="contact-message">Message <span class="required">*</span></label>
+                <textarea id="contact-message" name="message" rows="5" placeholder="Hi Bishwajeet, I'd like to discuss a software engineering opportunity with you..." required></textarea>
+                <span class="field-error-msg" id="message-error">Please write a message.</span>
+              </div>
+
+              <button type="submit" class="btn btn-primary submit-btn" id="contact-submit-btn">
+                <span class="btn-text">Send Message</span>
+                <svg class="send-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              </button>
+            </form>
+
+            <div class="form-status-alert" id="form-status" role="alert" style="display: none;"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Site Footer -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-left">
+        <a href="#hero" class="brand-logo footer-logo">
+          <span class="logo-bracket">&lt;</span>
+          <span class="logo-text">Bishwajeet Oraon</span>
+          <span class="logo-bracket">/&gt;</span>
+        </a>
+        <p class="footer-tagline">Building intelligent, scalable software &amp; machine learning solutions.</p>
+      </div>
+
+      <div class="footer-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-right">
+        <p class="copyright">&copy; 2026 Bishwajeet Oraon. All rights reserved.</p>
+        <button class="back-to-top" id="back-to-top" aria-label="Back to top" title="Back to top">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="18 15 12 9 6 15"></polyline></svg>
+        </button>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Toast Notification Container -->
+  <div class="toast-notification" id="toast-notification" role="status" aria-live="polite">
+    <span class="toast-message" id="toast-message">Email copied to clipboard!</span>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
